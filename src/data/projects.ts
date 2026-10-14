@@ -113,7 +113,17 @@ export const projects: Project[] = [
   tag: 'Healthcare services',
   description: 'Service discovery and visit booking for a home healthcare provider.',
   url: 'https://github.com/ahmedkhaled123456789/Salamtak-app',
-  image: "/images/salamtak-app.webp",
+  image: "/images/sal-app.jpg",
+  category: 'Mobile',
+  device: 'phone'
+},
+{
+  id: 'royalcare',
+  title: 'Royal Care app',
+  tag: 'Healthcare services',
+  description: 'Service discovery and visit booking for a home healthcare provider.',
+  url: 'https://github.com/ahmedkhaled123456789/care-mobile',
+  image: "/images/care-app.jpg",
   category: 'Mobile',
   device: 'phone'
 },
