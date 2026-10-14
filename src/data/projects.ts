@@ -35,6 +35,17 @@ export const projects: Project[] = [
   featured: true
 },
 {
+  id: 'salamtak',
+  title: 'Salamtak',
+  tag: 'Healthcare services',
+  description: 'Service discovery and visit booking for a home healthcare provider.',
+  url: 'https://salamtak-website-developer.vercel.app/',
+  image: "/images/salamtak.webp",
+  category: 'Web',
+  device: 'laptop',
+  featured: true
+},
+{
   id: 'shazmlc',
   title: 'Shazmlc',
   tag: 'Arabic business website',
@@ -53,7 +64,8 @@ export const projects: Project[] = [
   url: 'https://skygate.royalcare-plus.com/',
   image: "/images/sky.webp",
   category: 'Platform',
-  device: 'laptop'
+  device: 'laptop',
+  featured: true
 },
 {
   id: 'alshorouk',
@@ -92,6 +104,16 @@ export const projects: Project[] = [
   description: 'Map-first property search, live on the App Store.',
   url: 'https://apps.apple.com/eg/app/id6470154017',
   image: "/images/aq.webp",
+  category: 'Mobile',
+  device: 'phone'
+},
+{
+  id: 'salamtak_app',
+  title: 'Salamtak',
+  tag: 'Healthcare services',
+  description: 'Service discovery and visit booking for a home healthcare provider.',
+  url: 'https://github.com/ahmedkhaled123456789/Salamtak-app',
+  image: "/images/salamtak-app.webp",
   category: 'Mobile',
   device: 'phone'
 },
@@ -143,5 +165,15 @@ export const projects: Project[] = [
   url: 'https://primebusinessmen.ae/en',
   image: "/images/businessmen.webp",
   category: 'Web',
+  device: 'laptop'
+},
+{
+  id: 'hi',
+  title: 'Higher Innovation Academy',
+  tag: 'Academy CRM',
+  description: 'Students, attendance and records in one admin dashboard.',
+  url: 'https://higher-innovation-academy-crm.vercel.app/',
+  image: "/images/hi.webp",
+  category: 'Platform',
   device: 'laptop'
 }];
