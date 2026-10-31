@@ -5,7 +5,7 @@ export const contact = {
   phoneHref: 'tel:+971507159969',
   email: 'ahmedkhaledq207@gmail.com',
   emailHref: 'mailto:ahmedkhaledq207@gmail.com',
-  cv: '/Full%20Stack%20Developer.pdf',
+  cv: '/Ahmed-FullStack.pdf',
   whatsapp: 'https://wa.me/971507159969',
   github: 'https://github.com/ahmedkhaled123456789',
   linkedin: 'https://www.linkedin.com/in/ahmed-khaled-6b9385206'
