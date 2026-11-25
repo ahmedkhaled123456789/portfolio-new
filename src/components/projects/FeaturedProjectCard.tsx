@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowUpRightIcon } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { DeviceFrame } from '../ui/DeviceFrame';
+import { ProjectMeta } from './ProjectMeta';
 import { cn } from '../../utils/cn';
 import { trackPointer } from '../../utils/pointer';
 import type { Project } from '../../types/portfolio';
@@ -42,6 +43,7 @@ export function FeaturedProjectCard({ project, className }: {project: Project;cl
           </p>
           <h3 className="mt-2 font-display text-2xl font-semibold tracking-[-0.02em] md:text-3xl">{project.title}</h3>
           <p className="mt-2 max-w-md text-sm text-muted">{project.description}</p>
+          <ProjectMeta project={project} className="mt-4" />
         </div>
         <Button
           href={project.url}

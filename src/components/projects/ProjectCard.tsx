@@ -1,5 +1,6 @@
  import { ArrowUpRightIcon } from 'lucide-react';
 import { DeviceFrame } from '../ui/DeviceFrame';
+import { ProjectMeta, projectLinkLabel } from './ProjectMeta';
 import { cn } from '../../utils/cn';
 import { trackPointer } from '../../utils/pointer';
 import type { Project } from '../../types/portfolio';
@@ -40,15 +41,16 @@ export function ProjectCard({ project }: {project: Project;}) {
         </p>
         <h3 className="mt-2 font-display text-xl font-semibold tracking-[-0.02em]">{project.title}</h3>
         <p className="mt-1.5 text-sm text-muted">{project.description}</p>
+        <ProjectMeta project={project} className="mt-4" />
         <div className="mt-auto pt-5">
           <a
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`Show ${project.title} live (opens in a new tab)`}
+            aria-label={`${projectLinkLabel(project)}: ${project.title} (opens in a new tab)`}
             className="group/link inline-flex h-10 items-center gap-2 rounded-full border border-line/15 bg-surface/[0.04] px-4 text-sm font-medium text-fg transition-[background-color,border-color,color,transform] duration-200 ease-out hover:border-accent/50 hover:bg-accent hover:text-ink active:scale-[0.97]">
             
-            {isPhone ? 'View on App Store' : 'Show live'}
+            {projectLinkLabel(project)}
             <ArrowUpRightIcon
               aria-hidden="true"
               className="h-4 w-4 transition-transform duration-200 ease-out group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />

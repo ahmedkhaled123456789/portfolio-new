@@ -5,6 +5,9 @@ export interface Project {
   title: string;
   tag: string;
   description: string;
+  /** One headline number shown on the card, e.g. "10K+ teachers". */
+  metric?: string;
+  stack?: string[];
   url: string;
   image: string;
   category: ProjectCategory;
