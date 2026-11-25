@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
-import { ArrowRightIcon, HandshakeIcon, RocketIcon, TimerIcon, UsersIcon } from 'lucide-react';
+import { ArrowRightIcon, LanguagesIcon, LayersIcon, TrendingUpIcon, WorkflowIcon } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { SectionHeading } from '../ui/SectionHeading';
 import { Reveal } from '../ui/Reveal';
@@ -10,10 +10,10 @@ import { easeOut } from '../../utils/motion';
 import type { ReasonIcon } from '../../types/portfolio';
 
 const icons: Record<ReasonIcon, React.ComponentType<{className?: string;}>> = {
-  solo: RocketIcon,
-  team: UsersIcon,
-  time: TimerIcon,
-  clients: HandshakeIcon
+  layers: LayersIcon,
+  globe: LanguagesIcon,
+  scale: TrendingUpIcon,
+  automation: WorkflowIcon
 };
 
 export function WhyHireMe() {

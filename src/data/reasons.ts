@@ -2,28 +2,30 @@ import type { Reason } from '../types/portfolio';
 
 export const reasons: Reason[] = [
 {
-  id: 'solo',
-  title: 'Work Individually',
-  description: 'I can work on projects from scratch or on project updates as well.',
-  icon: 'solo'
-},
-{
-  id: 'team',
-  title: 'Collaborative',
-  description: 'I can work within a team and collaborate well with developers.',
-  icon: 'team'
-},
-{
-  id: 'time',
-  title: 'Time Management',
+  id: 'end-to-end',
+  title: 'End-to-end ownership',
   description:
-  'I manage the whole process timeline until product delivery, from zero to hero, meeting deadlines.',
-  icon: 'time'
+  'From database design and secure APIs to the frontend and deployment, one person owns the whole build. That includes a 7-module ERP running 3 Dubai branches.',
+  icon: 'layers'
 },
 {
-  id: 'clients',
-  title: 'Clients & Owners',
+  id: 'gulf',
+  title: 'Built for the Gulf market',
   description:
-  "I've been freelancing on many projects, working directly with clients and company owners.",
-  icon: 'clients'
+  'Bilingual Arabic/English, RTL-first interfaces and local payments (Mada, Visa, Stripe), shipped for clients in the UAE and Saudi Arabia.',
+  icon: 'globe'
+},
+{
+  id: 'scale',
+  title: 'Proven at scale',
+  description:
+  'Products in daily use: a teacher suite with 10K+ users and a booking platform covering 157 Saudi cities.',
+  icon: 'scale'
+},
+{
+  id: 'automation',
+  title: 'Automation that saves hours',
+  description:
+  'n8n workflows, webhooks and AI that remove manual hand-offs, so leads and requests reach the right team on their own.',
+  icon: 'automation'
 }];

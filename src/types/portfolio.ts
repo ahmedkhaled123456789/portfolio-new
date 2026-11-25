@@ -44,7 +44,7 @@ export interface SocialLink {
   href: string;
 }
 
-export type ReasonIcon = 'solo' | 'team' | 'time' | 'clients';
+export type ReasonIcon = 'layers' | 'globe' | 'scale' | 'automation';
 
 export interface Reason {
   id: string;
