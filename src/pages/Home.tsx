@@ -12,6 +12,7 @@ import { pauseScroll } from '../utils/scroll';
 import { preloadAllImages, preloadFullScreenshots } from '../utils/preload';
 
 const Projects = lazy(() => import('../components/projects/Projects').then((m) => ({ default: m.Projects })));
+const Experience = lazy(() => import('../components/sections/Experience').then((m) => ({ default: m.Experience })));
 const WhyHireMe = lazy(() => import('../components/sections/WhyHireMe').then((m) => ({ default: m.WhyHireMe })));
 const CTABanner = lazy(() => import('../components/sections/CTABanner').then((m) => ({ default: m.CTABanner })));
 const Footer = lazy(() => import('../components/layout/Footer').then((m) => ({ default: m.Footer })));
@@ -55,6 +56,7 @@ export function Home() {
         <AboutStrip />
         <Skills />
         <Suspense fallback={<div className="min-h-screen" />}>
+          <Experience />
           <Projects />
           <WhyHireMe />
           <CTABanner />

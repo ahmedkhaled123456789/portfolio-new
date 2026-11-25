@@ -12,6 +12,17 @@ export interface Project {
   featured?: boolean;
 }
 
+export interface Experience {
+  id: string;
+  role: string;
+  company: string;
+  location: string;
+  period: string;
+  current?: boolean;
+  highlights: string[];
+  stack: string[];
+}
+
 export interface Tech {
   name: string;
   slug: string;
