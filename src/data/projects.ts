@@ -70,6 +70,18 @@ export const projects: Project[] = [
   featured: true
 },
 {
+  id: 'apexaora',
+  title: 'ApexAora',
+  tag: 'Investment platform',
+  description: 'The website and ERP system for an AI-driven digital asset investment firm.',
+  metric: 'Website + ERP system',
+  url: 'https://apexaora.com/',
+  image: "/images/apexaora.webp",
+  category: 'Platform',
+  device: 'laptop',
+  featured: true
+},
+{
   id: 'salamtak',
   title: 'Salamtak',
   tag: 'Home care marketplace',
