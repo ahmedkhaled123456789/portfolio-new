@@ -35,6 +35,28 @@ export const projects: Project[] = [
   featured: true
 },
 {
+  id: 'rahal',
+  title: 'Rahal Travels',
+  tag: 'Travel & tourism agency',
+  description: 'Domestic and international trips, Umrah packages and visas in one place.',
+  url: 'https://rahaaltravels.com/',
+  image: "/images/rahal.webp",
+  category: 'Web',
+  device: 'laptop',
+  featured: true
+},
+{
+  id: 'apex',
+  title: 'Apex Aora',
+  tag: 'Real estate platform',
+  description: 'Buy, rent and off-plan listings across Dubai with verified agents.',
+  url: 'https://apex-real-estate-rosy.vercel.app/',
+  image: "/images/apex.webp",
+  category: 'Platform',
+  device: 'laptop',
+  featured: true
+},
+{
   id: 'salamtak',
   title: 'Salamtak',
   tag: 'Healthcare services',
@@ -118,7 +140,7 @@ export const projects: Project[] = [
   device: 'phone'
 },
 {
-  id: 'royalcare',
+  id: 'royalcare_app',
   title: 'Royal Care app',
   tag: 'Healthcare services',
   description: 'Service discovery and visit booking for a home healthcare provider.',
