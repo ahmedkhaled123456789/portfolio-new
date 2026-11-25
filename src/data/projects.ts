@@ -59,6 +59,17 @@ export const projects: Project[] = [
   featured: true
 },
 {
+  id: 'hunters',
+  title: 'H Hunters Technology',
+  tag: 'AI & digital transformation',
+  description: 'A bilingual corporate site for an AI and digital transformation consultancy, covering 8 service areas across 9 sectors.',
+  url: 'https://www.hhunterstechnology.com/',
+  image: "/images/hunters.webp",
+  category: 'Web',
+  device: 'laptop',
+  featured: true
+},
+{
   id: 'salamtak',
   title: 'Salamtak',
   tag: 'Home care marketplace',
