@@ -15,6 +15,8 @@ export const techs: Tech[] = [
 { name: 'n8n', slug: 'n8n', color: 'EA4B71' },
 { name: 'Express', slug: 'express', color: '', mono: true },
 { name: 'PHP', slug: 'php', color: '777BB4' },
+{ name: 'Python', slug: 'python', color: '3776AB' },
+{ name: '.NET', slug: 'dotnet', color: '512BD4' },
 { name: 'WordPress', slug: 'wordpress', color: '21759B' },
 { name: 'Shopify', slug: 'shopify', color: '7AB55C' },
 { name: 'Git', slug: 'git', color: 'F05032' },

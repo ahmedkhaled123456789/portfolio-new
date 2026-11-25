@@ -11,7 +11,7 @@ export const skillGroups: SkillGroup[] = [
   id: 'backend',
   title: 'Backend',
   summary: 'Secure, well-structured APIs and services built to last.',
-  items: ['Node.js', 'NestJS', 'Express', 'Laravel', 'PHP (OOP)', 'REST', 'GraphQL', 'JWT']
+  items: ['Node.js', 'NestJS', 'Express', 'Laravel', 'PHP (OOP)', 'Python', 'C# / .NET', 'REST', 'GraphQL', 'JWT']
 },
 {
   id: 'automation',
